@@ -1,5 +1,6 @@
 import xmltodict
 import os
+import json
 
 def get_keys(od): 
   output = list(od.keys())
@@ -15,7 +16,11 @@ def read_owl(owl_path):
 		output = xmltodict.parse(f)
 		return(output)
 
-def parse_owl(od, key):
+def subset_owl(od, key):
   output = od[key]
   return(output)
 
+def as_json(od):
+  # Convert orderedDict to JSON
+  output = json.dumps(od, indent = '\t')
+  return(output)
