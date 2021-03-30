@@ -39,7 +39,7 @@ jobs:
         shell: Rscript {0}
 
       - name: Install package
-        run:
+        run: |
           sudo chown 501:20 /usr/local/miniconda/pkgs/cache/b89cf7bf.json
           R CMD INSTALL .
 
