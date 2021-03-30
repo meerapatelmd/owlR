@@ -9,6 +9,24 @@ read_owl(owl_path)
 \arguments{
 \item{owl_path}{Path to OWL file.}
 }
+\value{
+List Object
+}
 \description{
 Runs the \code{xmltodict.parse} in python on an OWL file.
+}
+\examples{
+library(owlr)
+
+
+test_owl <-
+  read_owl(
+    file.path(
+      system.file(
+        package = "owlr", "owl"),
+      "test.owl")
+  )
+
+
+test_owl
 }
