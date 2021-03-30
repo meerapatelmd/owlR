@@ -5,6 +5,13 @@
 #     "~/OneDrive - ConcertAI/NCIt OWL/Thesaurus.owl"
 #   )
 #
+# # Get OWL Namespaces
+# ncit_parsed <-
+#   get_keys(ncit['rdf:RDF'])
+# ncit_parsed_r <-
+#   reticulate::py_to_r(ncit_parsed)
+
+#
 # ncit_sections <- names(ncit$`rdf:RDF`)
 # ncit_sections <- grep("^[@]{1}",
 #                       x = ncit_sections,

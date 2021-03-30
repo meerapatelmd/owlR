@@ -15,7 +15,7 @@ def read_owl(owl_path):
 		output = xmltodict.parse(f)
 		return(output)
 
-def parse_owl(od): 
-	k  = get_keys(od)
-	v  = get_values(od)
-	return k, v
+def parse_owl(od, key):
+  output = od[key]
+  return(output)
+
