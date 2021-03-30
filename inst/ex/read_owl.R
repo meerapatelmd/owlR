@@ -1,6 +1,4 @@
 library(owlr)
-
-
 test_owl <-
   read_owl(
     file.path(
@@ -8,6 +6,4 @@ test_owl <-
         package = "owlr", "owl"),
       "test.owl")
   )
-
-
 test_owl
