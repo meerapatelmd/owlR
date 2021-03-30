@@ -1,0 +1,635 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#AJCC_Staging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#AJCC_Staging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Classification_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Absolute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Absolute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Aliquot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Aliquot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Classification_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Classification_System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Clinical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Clinical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Solid_Tumor_Stage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Clinical_Performance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Clinical_Performance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Scoring_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Contact_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Contact_Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Protected_Health_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Curative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Curative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Date_of_Birth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Date_of_Birth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Definitive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Definitive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Descriptors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Descriptors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Diagnostic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Diagnostic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Dynamic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Dynamic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Mutability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Email_Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Email_Address">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Contact_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#FAX_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#FAX_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Contact_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Finding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Finding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#First_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#First_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Fixed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Fixed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Mutability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Protected_Health_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identifiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identifiers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#InterventionalRadiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#InterventionalRadiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Karnofsky_Performance_Score -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Karnofsky_Performance_Score">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Clinical_Performance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Last_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Last_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#MedicalOncology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#MedicalOncology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Medical_Record_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Medical_Record_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Middle_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Middle_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Mutability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Mutability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Descriptors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Not_Protected_Health_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Not_Protected_Health_Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identifiers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Observation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Observation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Operational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Operational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Timeframe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Palliative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Palliative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Pathologic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Pathologic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Solid_Tumor_Stage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Pathology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Pathology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Perioperative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Perioperative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Operational"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Physical_Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Physical_Address">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Contact_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Postoperative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Postoperative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Operational"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Preoperative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Preoperative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Operational"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Procedure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Protected_Health_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Protected_Health_Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identifiers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#RadiationOncology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#RadiationOncology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Radiologic_Assessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Radiologic_Assessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Scoring_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Radiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Radiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Restaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Restaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Scoring_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Scoring_System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Siewert_Classification_of_Gastroesophageal_Junction_Adenocarcinomas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Siewert_Classification_of_Gastroesophageal_Junction_Adenocarcinomas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Classification_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Social_Security_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Social_Security_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Solid_Tumor_Stage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Solid_Tumor_Stage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Specimen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Specimen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Staging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Staging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Start -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Start">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Surveillence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Surveillence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Telephone_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Telephone_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Contact_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Timeframe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Timeframe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#WHO_Classification_of_Central_Nervous_System_Tumors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#WHO_Classification_of_Central_Nervous_System_Tumors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Classification_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Finding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Finding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasStartTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasStartTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Timeframe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasStopTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasStopTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Timeframe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasTimeAnchor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasTimeAnchor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Timeframe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#hasValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Finding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#*Glioma_Score -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#*Glioma_Score">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Clinical_Performance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#2010_Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#2010_Version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#WHO_Classification_of_Central_Nervous_System_Tumors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#2016_Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#2016_Version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#WHO_Classification_of_Central_Nervous_System_Tumors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#6th_Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#6th_Version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#AJCC_Staging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#7th_Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#7th_Version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#AJCC_Staging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#8th_Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#8th_Version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#AJCC_Staging"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#MedicalOncology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#RadiationOncology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/patelm9/ontologies/2020/1/untitled-ontology-12#Surgery"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
