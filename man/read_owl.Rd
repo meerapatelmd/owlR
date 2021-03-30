@@ -17,8 +17,6 @@ Runs the \code{xmltodict.parse} in python on an OWL file.
 }
 \examples{
 library(owlr)
-
-
 test_owl <-
   read_owl(
     file.path(
@@ -26,7 +24,5 @@ test_owl <-
         package = "owlr", "owl"),
       "test.owl")
   )
-
-
 test_owl
 }

@@ -1,5 +1,5 @@
 Package: owlr
-Title: What the Package Does (One Line, Title Case)
+Title: Manipulate R Files in R  
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Meera",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "mpatel@concertai.com",
            comment = c(ORCID = "0000-0002-3401-3948"))
-Description: What the package does (one paragraph).
+Description: Python is executed in R using the reticulate R package for OWL manipulation.  
 License: MIT + file LICENSE
 Depends: 
   reticulate
