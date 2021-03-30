@@ -9,6 +9,8 @@ Authors@R:
            comment = c(ORCID = "0000-0002-3401-3948"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
+Depends: 
+  reticulate
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
