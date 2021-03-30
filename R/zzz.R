@@ -6,11 +6,9 @@
       file.path(lib_path,
                 "read_owl.py")
 
-    eval(
-      expr =
-        reticulate::source_python(
-            file = py_path),
-      envir =
-        parent.frame()
+    reticulate::source_python(
+        file = py_path,
+        envir =
+         globalenv()
     )
   }
