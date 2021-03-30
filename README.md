@@ -11,8 +11,6 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/owlr)](https://CRAN.R-project.org/package=owlr)
 <!-- badges: end -->
 
-The goal of owlr is to …
-
 ## Installation
 
 You can install this package from [GitHub](https://GitHub.com) with:

@@ -20,8 +20,6 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/owlr)](https://CRAN.R-project.org/package=owlr)
 <!-- badges: end -->
 
-The goal of owlr is to ...
-
 ## Installation
 
 You can install this package from [GitHub](https://GitHub.com) with:
@@ -47,5 +45,7 @@ test_owl
 
 ## Code of Conduct
 
-Please note that the owlr project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.  
+Please note that the owlr project is released with a [Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By
+contributing to this project, you agree to abide by its terms.  
 
