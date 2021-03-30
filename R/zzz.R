@@ -9,6 +9,7 @@
     reticulate::source_python(
         file = py_path,
         envir =
-         globalenv()
+         globalenv(),
+        convert = FALSE
     )
   }
