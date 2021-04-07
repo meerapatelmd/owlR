@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# owlr
+# owlR
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
@@ -26,21 +26,28 @@ You can install this package from [GitHub](https://GitHub.com) with:
 
 ``` r
 library(devtools)
-install_github("meerapatelmd/owlr")
+install_github("PrecisionHealthIntelligence/owlR")
 ```
 
 ## Example
 
-```{r example}
-library(owlr)
+```{r example,message=F,warning=F}
+library(owlR)
+library(reticulate)
+library(tidyverse) 
+
+
 test_owl <-
   read_owl(
     file.path(
       system.file(
-        package = "owlr", "owl"),
+        package = "owlR", "owl"),
       "test.owl")
   )
-test_owl
+test_owl$`rdf:RDF`$`rdf:Description` %>%
+  py_to_r()
+
+
 ```
 
 ## Code of Conduct
