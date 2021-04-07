@@ -1,15 +1,15 @@
 .onLoad <- function(libname, pkgname) {
-    # lib_path <-
-    #   system.file(package = "owlR",
-    #               "py")
-    # py_path <-
-    #   file.path(lib_path,
-    #             "read_owl.py")
-    #
-    # reticulate::source_python(
-    #     file = py_path,
-    #     envir =
-    #      globalenv(),
-    #     convert = FALSE
-    # )
+    lib_path <-
+      system.file(package = "owlR",
+                  "py")
+    py_path <-
+      file.path(lib_path,
+                "read_owl.py")
+
+    reticulate::source_python(
+        file = py_path,
+        envir =
+         globalenv(),
+        convert = FALSE
+    )
   }
