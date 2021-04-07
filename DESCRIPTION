@@ -1,5 +1,5 @@
-Package: owlr
-Title: Manipulate R Files in R
+Package: owlR
+Title: Manipulate OWL Files in R
 Version: 0.1.0
 Authors@R: 
     person(given = "Meera",
@@ -10,8 +10,6 @@ Authors@R:
 Description: Python is executed in R using the reticulate R package for
     OWL manipulation.
 License: MIT + file LICENSE
-URL: https://github.com/mpatel-cai/owlr
-BugReports: https://github.com/mpatel-cai/owlr/issues
 Depends: 
     reticulate
 Suggests: 
@@ -21,3 +19,5 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://PrecisionHealthIntelligence.github.io/owlR/, https://github.com/PrecisionHealthIntelligence/owlR/BugReports: https://github.com/PrecisionHealthIntelligence/owlR/issues/
+
