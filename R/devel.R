@@ -1,4 +1,4 @@
-#' library(owlr)
+#' library(owlR)
 #' library(tidyverse)
 #'
 #' ncit <-

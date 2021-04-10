@@ -1,6 +1,6 @@
 Package: owlR
 Title: Manipulate OWL Files in R
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Meera",
            family = "Patel",
